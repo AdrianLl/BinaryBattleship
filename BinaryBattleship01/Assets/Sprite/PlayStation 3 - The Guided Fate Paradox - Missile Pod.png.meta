@@ -1,0 +1,269 @@
+fileFormatVersion: 2
+guid: 46632df8d2fa94065bef68902dadd0d2
+timeCreated: 1478335099
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PlayStation 3 - The Guided Fate Paradox - Missile Pod_0
+    21300002: PlayStation 3 - The Guided Fate Paradox - Missile Pod_1
+    21300004: PlayStation 3 - The Guided Fate Paradox - Missile Pod_2
+    21300006: PlayStation 3 - The Guided Fate Paradox - Missile Pod_3
+    21300008: PlayStation 3 - The Guided Fate Paradox - Missile Pod_4
+    21300010: PlayStation 3 - The Guided Fate Paradox - Missile Pod_5
+    21300012: PlayStation 3 - The Guided Fate Paradox - Missile Pod_6
+    21300014: PlayStation 3 - The Guided Fate Paradox - Missile Pod_7
+    21300016: PlayStation 3 - The Guided Fate Paradox - Missile Pod_8
+    21300018: PlayStation 3 - The Guided Fate Paradox - Missile Pod_9
+    21300020: PlayStation 3 - The Guided Fate Paradox - Missile Pod_10
+    21300022: PlayStation 3 - The Guided Fate Paradox - Missile Pod_11
+    21300024: PlayStation 3 - The Guided Fate Paradox - Missile Pod_12
+    21300026: PlayStation 3 - The Guided Fate Paradox - Missile Pod_13
+    21300028: PlayStation 3 - The Guided Fate Paradox - Missile Pod_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayStation 3 - The Guided Fate Paradox - Missile Pod_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 749
+        width: 105
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation 3 - The Guided Fate Paradox - Missile Pod_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 744
+        width: 108
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation 3 - The Guided Fate Paradox - Missile Pod_2
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 749
+        width: 121
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation 3 - The Guided Fate Paradox - Missile Pod_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 579
+        width: 61
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation 3 - The Guided Fate Paradox - Missile Pod_4
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 579
+        width: 121
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation 3 - The Guided Fate Paradox - Missile Pod_5
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 582
+        width: 115
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation 3 - The Guided Fate Paradox - Missile Pod_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 405
+        width: 115
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation 3 - The Guided Fate Paradox - Missile Pod_7
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 427
+        width: 125
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation 3 - The Guided Fate Paradox - Missile Pod_8
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 432
+        width: 123
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation 3 - The Guided Fate Paradox - Missile Pod_9
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 269
+        width: 105
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation 3 - The Guided Fate Paradox - Missile Pod_10
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 269
+        width: 105
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation 3 - The Guided Fate Paradox - Missile Pod_11
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 269
+        width: 105
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation 3 - The Guided Fate Paradox - Missile Pod_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 118
+        width: 106
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation 3 - The Guided Fate Paradox - Missile Pod_13
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 118
+        width: 106
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation 3 - The Guided Fate Paradox - Missile Pod_14
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 118
+        width: 105
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
