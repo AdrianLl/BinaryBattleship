@@ -1,0 +1,423 @@
+fileFormatVersion: 2
+guid: fedcc6207a184884f8dd8f5ca97c5fcc
+timeCreated: 1478672335
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BoatSpriteFinal_0
+    21300002: BoatSpriteFinal_1
+    21300004: BoatSpriteFinal_2
+    21300006: BoatSpriteFinal_3
+    21300008: BoatSpriteFinal_4
+    21300010: BoatSpriteFinal_5
+    21300012: BoatSpriteFinal_6
+    21300014: BoatSpriteFinal_7
+    21300016: BoatSpriteFinal_8
+    21300018: BoatSpriteFinal_9
+    21300020: BoatSpriteFinal_10
+    21300022: BoatSpriteFinal_11
+    21300024: BoatSpriteFinal_12
+    21300026: BoatSpriteFinal_13
+    21300028: BoatSpriteFinal_14
+    21300030: BoatSpriteFinal_15
+    21300032: BoatSpriteFinal_16
+    21300034: BoatSpriteFinal_17
+    21300036: BoatSpriteFinal_18
+    21300038: BoatSpriteFinal_19
+    21300040: BoatSpriteFinal_20
+    21300042: BoatSpriteFinal_21
+    21300044: BoatSpriteFinal_22
+    21300046: BoatSpriteFinal_23
+    21300048: BoatSpriteFinal_24
+    21300050: BoatSpriteFinal_25
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BoatSpriteFinal_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 107
+        width: 40
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 107
+        width: 57
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 111
+        width: 83
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_3
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 118
+        width: 113
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_4
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 108
+        width: 135
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_5
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 188
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_6
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 189
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_7
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 192
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_8
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 188
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 109
+        width: 148
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_10
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 170
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_11
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 170
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_12
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 170
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_13
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 170
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_14
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 172
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_15
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 170
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_16
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 171
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_17
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 172
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_18
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 110
+        width: 152
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 148
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_20
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 2
+        width: 134
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_21
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 0
+        width: 112
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_22
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 2
+        width: 83
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_23
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 1
+        width: 61
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_24
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 4
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoatSpriteFinal_25
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 0
+        width: 106
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
