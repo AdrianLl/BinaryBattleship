@@ -6,12 +6,12 @@ public class ButtonBehavior : MonoBehaviour {
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("02Game");
+        SceneManager.LoadScene("02 - Game");
     }
 
     public void GoToDirections()
     {
-        SceneManager.LoadScene("settings");
+        SceneManager.LoadScene("03 - Directions");
     }
 
     public void QuitGame()
