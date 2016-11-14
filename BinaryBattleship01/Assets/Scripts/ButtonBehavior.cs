@@ -14,6 +14,11 @@ public class ButtonBehavior : MonoBehaviour {
         SceneManager.LoadScene("03 - Directions");
     }
 
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("01- Menu");
+    }
+
     public void QuitGame()
     {
         Application.Quit();
