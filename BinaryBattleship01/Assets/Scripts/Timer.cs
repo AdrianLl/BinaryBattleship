@@ -20,7 +20,6 @@ public class Timer : MonoBehaviour {
 
         countdownTimer -= Time.deltaTime;
         timerText.text = countdownTimer.ToString("f0");
-        print(countdownTimer);
 	
 	}
 }
