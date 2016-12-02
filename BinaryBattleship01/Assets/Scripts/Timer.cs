@@ -4,8 +4,10 @@ using UnityEngine.UI;
 
 public class Timer : MonoBehaviour {
 
-    public float countdownTimer  = 92;
+    public float countdownTimer  = 90;
     public Text timerText;
+    private GameStates gameStates;
+    
 
 
 	// Use this for initialization
@@ -18,8 +20,13 @@ public class Timer : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        countdownTimer -= Time.deltaTime;
-        timerText.text = countdownTimer.ToString("f0");
+        gameStates = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameStates>();
+
+        if (gameStates.gameON)
+        {
+            countdownTimer -= Time.deltaTime;
+            timerText.text = countdownTimer.ToString("f0");
+        }
 	
 	}
 }

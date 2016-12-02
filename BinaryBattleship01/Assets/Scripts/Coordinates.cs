@@ -4,8 +4,8 @@ using UnityEngine.UI;
 
 public class Coordinates : MonoBehaviour {
 
-    public float countdownTimer = 92;
     public Text timerText;
+    private GameStates gameStates;
 
     // Use this for initialization
     void Start()
@@ -18,8 +18,18 @@ public class Coordinates : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        gameStates = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameStates>();
 
-        timerText.text = "x - 01";
+        if (gameStates.gameON)
+        {
+            timerText.text =
+                "X: 0010 \n" +
+                "Y: 0010";
+        }
+        else
+        {
+            timerText.text = "Waiting for signals...";
+        }
 
     }
 }
