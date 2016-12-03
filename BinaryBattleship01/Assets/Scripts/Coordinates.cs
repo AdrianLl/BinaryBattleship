@@ -23,8 +23,8 @@ public class Coordinates : MonoBehaviour {
         if (gameStates.gameON)
         {
             timerText.text =
-                "X: 0010 \n" +
-                "Y: 0010";
+                "Coordinates have been found, enter them below! \n" +
+                "When the timer reaches 0, you have run out of time";
         }
         else
         {
