@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour {
 
@@ -26,6 +27,7 @@ public class Timer : MonoBehaviour {
         {
             countdownTimer -= Time.deltaTime;
             timerText.text = countdownTimer.ToString("f0");
+			if(countdownTimer <= 0){SceneManager.LoadScene("04 - Gameover");}
         }
 	
 	}
