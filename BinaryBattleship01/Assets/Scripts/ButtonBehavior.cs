@@ -1,10 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 
 public class ButtonBehavior : MonoBehaviour {
+	private InputField x;
+	private InputField y;
+	private string xy;
 
 
+	void Awake(){
+	//	x = GameObject.Find ("X Input").GetComponent<InputField> ();
+	//	y = GameObject.Find ("Y Input").GetComponent<InputField> ();
+
+	//	xy = "you entered "+ x.text + " " + y.text;
+	}
 
     public void PlayGame()
     {
@@ -30,4 +41,13 @@ public class ButtonBehavior : MonoBehaviour {
     {
 
     }
+
+	public void GetInput(string xy)
+	{
+		x = GameObject.Find ("X Input").GetComponent<InputField> ();
+		y = GameObject.Find ("Y Input").GetComponent<InputField> ();
+
+		xy = "you entered "+ x.text + " " + y.text;
+		Debug.Log (xy);
+	}
 }
