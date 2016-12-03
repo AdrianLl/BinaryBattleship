@@ -14,7 +14,7 @@ Platform assembly: C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\Bin
 Loading C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.141 seconds
+- Completed reload, in  0.086 seconds
 Platform assembly: C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\System.dll (this message is harmless)
 desktop: 2560x1440 59Hz; virtual: 2560x1440 at 0,0
@@ -22,12 +22,12 @@ desktop: 2560x1440 59Hz; virtual: 2560x1440 at 0,0
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.952320 ms
+UnloadTime: 1.074774 ms
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 7.458139 ms
+UnloadTime: 5.794991 ms
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 366.
-Total: 1.317974 ms (FindLiveObjects: 0.034133 ms CreateObjectMapping: 0.032853 ms MarkObjects: 0.347733 ms  DeleteObjects: 0.901974 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 356.
+Total: 1.319681 ms (FindLiveObjects: 0.030720 ms CreateObjectMapping: 0.030293 ms MarkObjects: 0.277333 ms  DeleteObjects: 0.980480 ms)
 
 You did it
  
@@ -38,4 +38,4 @@ You did it
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 7d0 -> priority: 1 
+  Thread -> id: ec8 -> priority: 1 
