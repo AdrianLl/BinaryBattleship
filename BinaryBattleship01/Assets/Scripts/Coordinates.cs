@@ -24,7 +24,7 @@ public class Coordinates : MonoBehaviour {
         {
             timerText.text =
                 "Coordinates have been found, enter them below! \n" +
-                "When the timer reaches 0, you have run out of time";
+                "When the timer reaches 0, you have run out of time.";
         }
         else
         {
