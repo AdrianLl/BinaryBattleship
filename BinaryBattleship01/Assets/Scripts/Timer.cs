@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour {
 
-    public float countdownTimer  = 90;
+    public float countdownTimer  = 60;
     public Text timerText;
     private GameStates gameStates;
     
