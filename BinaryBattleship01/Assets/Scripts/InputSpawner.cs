@@ -11,8 +11,8 @@ public class InputSpawner : MonoBehaviour {
     public float[] horizontalLocation;
     public float[] verticalLocation;
 
-    public int[] xCoordinates;
-    public int[] yCoordinates;
+    public String[] xCoordinates;
+    public String[] yCoordinates;
 
     private GameStates gameStates;
 
@@ -26,8 +26,11 @@ public class InputSpawner : MonoBehaviour {
 
         horizontalLocation = new float[4] { -3.13f, -2.17f, 2.92f, 4.87f };
         verticalLocation = new float[4] { -1.72f, 3.25f, -0.72f, 1.26f };
-        xCoordinates = new int[4] { 2, 7, 6, 4 };
-        yCoordinates = new int[4] { 3, 2, 8, 10 };
+
+        //xVals = 7,2,6,4
+        //yVals = 2,3,8,10
+        xCoordinates = new String[4] { "0111", "0010", "0110", "0100" };
+        yCoordinates = new String[4] { "0010", "0011", "1000", "1010" };
 
 
     }
@@ -37,16 +40,23 @@ public class InputSpawner : MonoBehaviour {
         x = GameObject.Find("X Input").GetComponent<InputField>();
         y = GameObject.Find("Y Input").GetComponent<InputField>();
 
-        int xNum = Convert.ToInt32(x.text);
-        int yNum = Convert.ToInt32(y.text);
+        String xNum = Convert.ToString(x.text);
+        String yNum = Convert.ToString(y.text);
+
+        string xy = "you entered "+xNum+ " " + yNum;
+        Debug.Log(xy);
 
 
         for ( int i = 0; i< maxInputs; i++)
         {
-            if(xNum == xCoordinates[i] && yNum == yCoordinates[i])
+            if(xNum.Equals(xCoordinates[i]) && yNum.Equals(yCoordinates[i]))
             {
-                Debug.Log("entered hit");
-                Spawn(i);
+                int shipNum = i+1;
+                Debug.Log("ShipNumber" + shipNum);
+                
+                GameObject ship = GameObject.FindGameObjectWithTag("ship"+shipNum);
+                Destroy(ship);
+               
             }
         }
     }

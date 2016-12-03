@@ -32,11 +32,15 @@ public class ShipSpawner : MonoBehaviour {
 
     void Spawn()
     {
+        int shipCount = 0;
         for (int i = 0; i < maxShips; i++)
         {
+            shipCount++;
             Vector2 position = new Vector2(horizontalLocation[i], verticalLocation[i]);
+            ship.tag = "ship" + shipCount;
             Instantiate(ship, position, Quaternion.identity);
         }
 
     }
+
 }
