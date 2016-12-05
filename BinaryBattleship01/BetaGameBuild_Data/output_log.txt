@@ -14,7 +14,30 @@ Platform assembly: C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\Bin
 Loading C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.086 seconds
+- Completed reload, in  0.264 seconds
+Platform assembly: C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\System.dll (this message is harmless)
+desktop: 2560x1440 59Hz; virtual: 2560x1440 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+Initialize engine version: 5.4.0f3 (a6d8d714de6f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   Intel
+    VRAM:     2111 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.052 seconds
 Platform assembly: C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\System.dll (this message is harmless)
 desktop: 2560x1440 59Hz; virtual: 2560x1440 at 0,0
@@ -22,20 +45,46 @@ desktop: 2560x1440 59Hz; virtual: 2560x1440 at 0,0
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.074774 ms
+UnloadTime: 0.924587 ms
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.006615 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 194.
+Total: 1.180160 ms (FindLiveObjects: 0.020906 ms CreateObjectMapping: 0.019626 ms MarkObjects: 0.190293 ms  DeleteObjects: 0.948907 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.517546 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 341.
+Total: 0.353706 ms (FindLiveObjects: 0.027733 ms CreateObjectMapping: 0.029013 ms MarkObjects: 0.284586 ms  DeleteObjects: 0.011093 ms)
+
+You did it
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+You did it
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+You did it
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+You did it
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.207893 ms
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 230.
+Total: 0.514986 ms (FindLiveObjects: 0.026880 ms CreateObjectMapping: 0.013653 ms MarkObjects: 0.245333 ms  DeleteObjects: 0.227413 ms)
+
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 5.794991 ms
+UnloadTime: 0.432640 ms
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 356.
-Total: 1.319681 ms (FindLiveObjects: 0.030720 ms CreateObjectMapping: 0.030293 ms MarkObjects: 0.277333 ms  DeleteObjects: 0.980480 ms)
-
-You did it
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-You did it
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 194.
+Total: 1.160107 ms (FindLiveObjects: 0.020053 ms CreateObjectMapping: 0.012800 ms MarkObjects: 0.162986 ms  DeleteObjects: 0.963840 ms)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: ec8 -> priority: 1 
+  Thread -> id: 43ac -> priority: 1 

@@ -37,9 +37,9 @@ public class ButtonBehavior : MonoBehaviour {
         Application.Quit();
     }
 
-    public void DisplayKey()
+    public void Pregame()
     {
-
+        SceneManager.LoadScene("05 - Pregame");
     }
 
 	public void GetInput(string xy)

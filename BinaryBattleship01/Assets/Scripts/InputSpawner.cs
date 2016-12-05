@@ -2,8 +2,9 @@
 using System.Collections;
 using UnityEngine.UI;
 using System;
-
-public class InputSpawner : MonoBehaviour {
+using System.Linq;
+public class InputSpawner : MonoBehaviour
+{
 
     public int maxInputs;
     public GameObject input;
@@ -20,6 +21,8 @@ public class InputSpawner : MonoBehaviour {
     private InputField y;
     private String xy;
 
+    private AudioSource explosionAudio;
+
     void Start()
     {
         maxInputs = 4;
@@ -32,6 +35,7 @@ public class InputSpawner : MonoBehaviour {
         xCoordinates = new String[4] { "0111", "0010", "0110", "0100" };
         yCoordinates = new String[4] { "0010", "0011", "1000", "1010" };
 
+        explosionAudio = GetComponent<AudioSource>();
 
     }
 
@@ -43,20 +47,20 @@ public class InputSpawner : MonoBehaviour {
         String xNum = Convert.ToString(x.text);
         String yNum = Convert.ToString(y.text);
 
-        string xy = "you entered "+xNum+ " " + yNum;
+        string xy = "you entered " + xNum + " " + yNum;
         Debug.Log(xy);
 
 
-        for ( int i = 0; i< maxInputs; i++)
+        for (int i = 0; i < maxInputs; i++)
         {
-            if(xNum.Equals(xCoordinates[i]) && yNum.Equals(yCoordinates[i]))
+            if (xNum.Equals(xCoordinates[i]) && yNum.Equals(yCoordinates[i]))
             {
-                int shipNum = i+1;
+                int shipNum = i + 1;
                 Debug.Log("ShipNumber" + shipNum);
-                
-                GameObject ship = GameObject.FindGameObjectWithTag("ship"+shipNum);
+                GameObject ship = GameObject.FindGameObjectWithTag("ship" + shipNum);
+                explosionAudio.Play();
                 Destroy(ship);
-               
+
             }
         }
     }
