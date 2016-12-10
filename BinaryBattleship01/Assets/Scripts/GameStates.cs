@@ -16,4 +16,6 @@ public class GameStates : MonoBehaviour {
     {
         pauseON = !pauseON;
     }
+
+    //add level state - so we know what to spawn on ship spawner
 }
