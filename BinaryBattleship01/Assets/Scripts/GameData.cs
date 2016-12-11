@@ -10,7 +10,7 @@ public class GameData : MonoBehaviour
     public int score;
     public AudioMixerSnapshot menuMusic;
     public AudioMixerSnapshot gameMusic;
-    private float transTime = 0.5f;
+    private float transTime = 0.8f;
 
     public static GameData Instance;
 
@@ -19,13 +19,18 @@ public class GameData : MonoBehaviour
         playerName = "";
         score = 0;
 
-        if(SceneManager.GetActiveScene().name == "01- Menu")
+        
+    }
+
+    void Update()
+    {
+        if (SceneManager.GetActiveScene().name == "02 - Game")
         {
-            menuMusic.TransitionTo(transTime);
+            gameMusic.TransitionTo(transTime);
         }
         else
         {
-            gameMusic.TransitionTo(transTime);
+            menuMusic.TransitionTo(0);
         }
     }
 

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 3e73c3ddd79bc9c4bad21889d5aaa1d3
-timeCreated: 1481352981
+timeCreated: 1481424042
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -9,6 +9,8 @@ TextureImporter:
     21300004: SettingsIcon
     21300006: MusicON
     21300008: MusicOFF
+    21300010: VolumeRocker
+    21300012: VolumeSlider
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -104,6 +106,32 @@ TextureImporter:
         y: 464
         width: 60
         height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: VolumeRocker
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1066
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: VolumeSlider
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 88
+        width: 64
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
