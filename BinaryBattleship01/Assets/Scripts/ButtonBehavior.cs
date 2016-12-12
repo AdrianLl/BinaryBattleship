@@ -23,7 +23,7 @@ public class ButtonBehavior : MonoBehaviour {
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("02 - Game");
+        SceneManager.LoadScene("02 - GameL2");
     }
 
     public void GoToDirections()
@@ -69,5 +69,12 @@ public class ButtonBehavior : MonoBehaviour {
     public void MachineInstructions()
     {
         SceneManager.LoadScene("07 - MachineInstructions");
+    }
+
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene("02 - GameL2");
+        GameData.Instance.setScore(0);
     }
 }

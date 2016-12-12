@@ -12,11 +12,10 @@ public class ShipSpawner : MonoBehaviour {
 
     void Start()
     {
-        maxShips = 4;
+        maxShips = 5;
 
-        horizontalLocation = new float[4] { -3.13f, -2.17f, 2.92f, 4.87f };
-        verticalLocation = new float[4] { -1.72f, 3.25f, -0.72f, 1.26f };
-
+        horizontalLocation = new float[5] { -3.13f, -2.17f, 2.92f, 4.87f, 3.91f };
+        verticalLocation = new float[5] { -1.72f, 3.25f, -0.72f, 1.26f, -2.73f };
         // add different arrangements for different levels
 
 

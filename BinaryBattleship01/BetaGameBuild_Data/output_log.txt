@@ -14,7 +14,7 @@ Platform assembly: C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\Bin
 Loading C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.227 seconds
+- Completed reload, in  0.170 seconds
 Platform assembly: C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Adria\OneDrive\Documents\GitHub\BinaryBattleship\BinaryBattleship01\BetaGameBuild_Data\Managed\System.dll (this message is harmless)
 desktop: 2560x1440 59Hz; virtual: 2560x1440 at 0,0
@@ -22,36 +22,30 @@ desktop: 2560x1440 59Hz; virtual: 2560x1440 at 0,0
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.781227 ms
+UnloadTime: 0.904107 ms
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.162029 ms
+UnloadTime: 5.469871 ms
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 307.
-Total: 0.318720 ms (FindLiveObjects: 0.035840 ms CreateObjectMapping: 0.014933 ms MarkObjects: 0.257280 ms  DeleteObjects: 0.009386 ms)
-
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.472747 ms
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 430.
-Total: 0.466347 ms (FindLiveObjects: 0.053333 ms CreateObjectMapping: 0.014933 ms MarkObjects: 0.327253 ms  DeleteObjects: 0.069973 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.288534 ms
-
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 385.
-Total: 0.727467 ms (FindLiveObjects: 0.043946 ms CreateObjectMapping: 0.016213 ms MarkObjects: 0.386133 ms  DeleteObjects: 0.279893 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 370.
+Total: 0.493653 ms (FindLiveObjects: 0.031573 ms CreateObjectMapping: 0.029866 ms MarkObjects: 0.418133 ms  DeleteObjects: 0.013226 ms)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.493227 ms
+UnloadTime: 1.064107 ms
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 286.
-Total: 0.349866 ms (FindLiveObjects: 0.053333 ms CreateObjectMapping: 0.014506 ms MarkObjects: 0.242773 ms  DeleteObjects: 0.038826 ms)
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 380.
+Total: 0.502187 ms (FindLiveObjects: 0.066133 ms CreateObjectMapping: 0.018773 ms MarkObjects: 0.401920 ms  DeleteObjects: 0.013653 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.475733 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 531.
+Total: 0.497920 ms (FindLiveObjects: 0.029013 ms CreateObjectMapping: 0.017920 ms MarkObjects: 0.405333 ms  DeleteObjects: 0.045226 ms)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.501760 ms
+UnloadTime: 1.010347 ms
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 388.
-Total: 0.355840 ms (FindLiveObjects: 0.031573 ms CreateObjectMapping: 0.020053 ms MarkObjects: 0.292693 ms  DeleteObjects: 0.011093 ms)
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 509.
+Total: 0.975360 ms (FindLiveObjects: 0.046933 ms CreateObjectMapping: 0.023466 ms MarkObjects: 0.532907 ms  DeleteObjects: 0.371200 ms)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 450 -> priority: 1 
+  Thread -> id: 229c -> priority: 1 
