@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 3e73c3ddd79bc9c4bad21889d5aaa1d3
-timeCreated: 1481424042
+timeCreated: 1481432060
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -11,6 +11,10 @@ TextureImporter:
     21300008: MusicOFF
     21300010: VolumeRocker
     21300012: VolumeSlider
+    21300014: CloseScreen
+    21300016: locked
+    21300018: unlocked
+    21300020: home
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -132,6 +136,58 @@ TextureImporter:
         y: 88
         width: 64
         height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CloseScreen
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 764
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: locked
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1464
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: unlocked
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1644
+        width: 87
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: home
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 366
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

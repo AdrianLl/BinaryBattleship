@@ -2,21 +2,25 @@
 using System.Collections;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using System;
+using System.Linq;
 
 
 public class GameData : MonoBehaviour
 {
-    public string playerName;
+    public string playerNameInput;
     public int score;
     public AudioMixerSnapshot menuMusic;
     public AudioMixerSnapshot gameMusic;
     private float transTime = 0.8f;
 
     public static GameData Instance;
+    //public InputField playerName;
 
     void Start()
     {
-        playerName = "";
+        playerNameInput = "";
         score = 0;
 
         
@@ -61,16 +65,21 @@ public class GameData : MonoBehaviour
     {
         score += a;
     }
+    /*
+    public void setName(InputField n)
+    {
+        pName = GameObject.FindWithTag("NameInputField").GetComponent<InputField>();
+        playerName = Convert.ToString(pName.text);
+        Debug.Log(playerName + "NAME WORKS!");
+    }
+    */
 
     public void setName(string n)
     {
-        playerName = n;
+        playerNameInput = n;
     }
-
     public string getName()
     {
-        return playerName;
+        return playerNameInput;
     }
-
-
 }

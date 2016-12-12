@@ -47,9 +47,6 @@ public class InputSpawner : MonoBehaviour
         String xNum = Convert.ToString(x.text);
         String yNum = Convert.ToString(y.text);
 
-        string xy = "you entered " + xNum + " " + yNum;
-        Debug.Log(xy);
-
 
         for (int i = 0; i < maxInputs; i++)
         {
